@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "../../assets/images/logo.png";
 import "./styles.css";
+
+import { Link } from "react-router-dom";
 const Header: React.FC = () => {
   return (
     <header id="menu">
@@ -9,7 +11,7 @@ const Header: React.FC = () => {
 
         <nav>
           <a href="">Premium</a>
-          <a href="">Suporte</a>
+          <a href="/sobre">Suporte</a>
           <a href="">Baixar</a>
           <span className="divisor"></span>
           <a href="">Inscrever-se</a>
