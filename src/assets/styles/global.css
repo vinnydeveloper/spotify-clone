@@ -4,3 +4,19 @@
   font-family: "Montserrat";
   box-sizing: border-box;
 }
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.divisor {
+  width: 1px;
+  height: 15px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.logo {
+  width: 150px;
+}
